@@ -1,0 +1,248 @@
+/* General Body Styling */
+body {
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
+    color: #964B00;
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner Styling */
+.banner {
+    background-color: #8B4513;
+    color: #FFF1DC;
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 3px solid #964B00;
+}
+
+.banner h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Content Section Styling */
+.content-section {
+    padding: 30px;
+    background-color: #FFF1DC;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.content-section h2 {
+    color: #8B4513;
+    font-size: 1.8em;
+}
+
+/* Table Styling */
+.fashion-table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.fashion-table th, .fashion-table td {
+    border: 1px solid #964B00;
+    padding: 15px;
+    background-color: #FFF1DC;
+    color: #5E3D22;
+}
+
+.fashion-table th {
+    background-color: #8B4513;
+    color: white;
+}
+
+/* Accessory List Styling */
+.accessory-list {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #5E3D22;
+}
+
+/* Blog Container */
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.blog-post {
+    background-color: #FFF1DC;
+    border: 2px solid #964B00;
+    padding: 20px;
+    margin: 15px;
+    width: 40%;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.blog-post h2 {
+    color: #8B4513;
+    margin-top: 0;
+}
+
+/* Button Styling */
+.read-more {
+    background-color: #964B00;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.read-more:hover {
+    background-color: #8B4513;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #F4E1C1;
+    padding: 20px;
+    text-align: center;
+    border-top: 3px solid #964B00;
+    margin-top: 20px;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    margin: 0 15px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #964B00;
+    font-weight: bold;
+}
+
+footer p {
+    margin-top: 10px;
+    color: #5E3D22;
+    font-size: 0.9em;
+}
+
+/* Center Content on the Index Page */
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #FFF1DC;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.intro-text {
+    max-width: 70%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.intro h2 {
+    color: #8B4513;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    color: #5E3D22;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.explore-button {
+    display: inline-block;
+    background-color: #964B00;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.explore-button:hover {
+    background-color: #8B4513;
+}
+
+.intro-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Center Trend Cards */
+.highlighted-trends {
+    padding: 20px;
+    text-align: center;
+    background-color: #FFF1DC;
+    margin-top: 20px;
+    border-top: 3px solid #964B00;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trend-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.trend-card {
+    background-color: #FFF1DC;
+    border: 2px solid #964B00;
+    padding: 15px;
+    width: calc(33% - 20px);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+    margin: 10px;
+}
+
+.trend-card h3 {
+    color: #8B4513;
+    margin-top: 0;
+}
+
+.trend-card p {
+    color: #5E3D22;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    display: inline-block;
+    background-color: #964B00;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    background-color: #8B4513;
+}
